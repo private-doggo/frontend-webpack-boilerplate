@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+#webpack build directory
+public
+
+#ignoring this file, because browser list is set in package.json already
+.browserslistrc
