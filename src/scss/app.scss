@@ -1,4 +1,7 @@
-@import './_reset';
+@import './base/fonts';
+@import './base/mixins';
+@import './base/reset';
+@import './base/vars';
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
