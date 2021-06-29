@@ -52,7 +52,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.js/,
+        test: /\.js$/, // $ is here to exclude .json and other js* files
         use: ['babel-loader?cacheDirectory'],
         exclude: /node_modules/,
       },
